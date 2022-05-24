@@ -2,7 +2,7 @@ import { View, Text, Image, TextInput } from "react-native";
 
 import { COLORS, SHADOWS, SIZES, assets, FONTS } from "../constants";
 
-const HomeHeader = () => {
+const HomeHeader = ({onSearch}) => {
   return (
     <View
       style={{
